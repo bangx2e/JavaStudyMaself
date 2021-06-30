@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 package kr.tpc;
 
 public class BookDTO {
@@ -17,20 +16,17 @@ public class BookDTO {
 		this.company = company;
 		this.page = page;
 	}
-	
-=======
+}	
+//
+//public class BookDTO() {
+//	public String title;
+//	public int price;
+//	public String company;
+//	public int page;
+//
+//	
+//	//기본 생성자
+//	public BookDTO() {
+//		super();
+//	}
 
-public class BookDTO {
-	public String title;
-	public int price;
-	public String company;
-	public int page;
-
-	
-	//기본 생성자
-	public BookDTO() {
-		super();
-	}
-
->>>>>>> refs/remotes/origin/master
-}
