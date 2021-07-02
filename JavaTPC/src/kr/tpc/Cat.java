@@ -1,17 +1,18 @@
 package kr.tpc;
 
 public class Cat extends Animal {
-	// ÀÌ¸§, ³ªÀÌ, Á¾ : »óÅÂÁ¤º¸
+	// ì´ë¦„,ë‚˜ì´,ì¢… : ìƒíƒœì •ë³´
+	
 	@Override
 	public void eat() {
-		System.out.println("°í¾çÀÌ°¡ ¸Ô´Â´Ù");
+		System.out.println("ê³ ì–‘ì´ê°€ ë¨¹ë‹¤");
 	}
 	
 	public void night() {
-		System.out.println("¹ã¿¡ ´«¿¡¼­ ºûÀÌ ³­´Ù.");
+		System.out.println("ë°¤ì— ëˆˆì—ì„œ ë¹›ì´ë‚œë‹¤.");
 	}
 
 	public void bark() {
-		System.out.println("¾ß¿Ë");
+		System.out.println("ëƒì˜¹");
 	}
 }

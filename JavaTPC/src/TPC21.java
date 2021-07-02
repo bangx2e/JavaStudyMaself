@@ -14,6 +14,14 @@ public class TPC21 {
 		Cat c = new Cat();
 		c.eat();
 		
+		//다형성(Polymorphism)
+		Animal ani = new Dog();
+		ani.eat();
+		
+		ani = new Cat(); //upcasting (자동 형변환)
+		ani.eat();
+		
+		((Cat)ani).night(); //downcasting(강제 형변환)
 		
 		
 	}

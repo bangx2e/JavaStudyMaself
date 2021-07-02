@@ -1,16 +1,16 @@
 package kr.tpc;
 
 public class Dog extends Animal {
-	// ÀÌ¸§, ³ªÀÌ, Á¾ : »óÅÂÁ¤º¸
+	// ì´ë¦„,ë‚˜ì´,ì¢… : ìƒíƒœì •ë³´
 	
 	
 	public void bark() {
-		System.out.println("¸Û¸Û");
+		System.out.println("ë©ë©");
 	}
-	//ÀçÁ¤ÀÇ(Overriding)
+	//ì˜¤ë²„ë¼ì´ë“œ(Overriding)
 	@Override
 	public void eat() {
-		System.out.println("°­¾ÆÁö°¡ ¸Ô´Â´Ù");
+		System.out.println("ê°œê°€ ë¨¹ë‹¤");
 	}
 	
 	public Dog() {
