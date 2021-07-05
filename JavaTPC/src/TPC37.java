@@ -2,7 +2,7 @@ import kr.inflearn.ObjectArray;
 import kr.tpc.*;
 
 public class TPC37 {
-	public static void Main(String[] args) {
+	public static void main(String[] args) {
 		ObjectArray arr = new ObjectArray(5);
 		arr.add(new A());
 		arr.add(new B());
