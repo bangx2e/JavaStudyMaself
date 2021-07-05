@@ -1,14 +1,19 @@
+import java.util.ArrayList;
+
 import kr.inflearn.ObjectArray;
 import kr.tpc.*;
 
 public class TPC37 {
 	public static void main(String[] args) {
-		ObjectArray arr = new ObjectArray(5);
+//		ObjectArray arr = new ObjectArray(5);
+		ArrayList arr = new ArrayList(5);
 		arr.add(new A());
 		arr.add(new B());
 		arr.add(new A());
 		arr.add(new A());
 		arr.add(new B());
+		arr.add(new B());
+		arr.add(new A());
 		
 		for(int i =0; i<arr.size();i++) {
 			Object o = arr.get(i);
